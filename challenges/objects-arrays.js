@@ -147,7 +147,7 @@ Name email@example.com
 
 Log the result of your new array. */
 const contactInfo = [];
-graduates.filter(graduate =>
+graduates.forEach(graduate =>
   contactInfo.push(`${graduate.first_name} ${graduate.email}`)
 );
 console.log(contactInfo);

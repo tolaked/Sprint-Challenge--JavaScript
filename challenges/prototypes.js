@@ -45,6 +45,6 @@ CuboidMaker.prototype.surfaceArea = function() {
   );
 };
 
-const cubetype = new CuboidMaker(4, 5, 5);
-cubetype.volume();
-cubetype.surfaceArea();
+const cuboid = new CuboidMaker(4, 5, 5);
+cuboid.volume();
+cuboid.surfaceArea();
